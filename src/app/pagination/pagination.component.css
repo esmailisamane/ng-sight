@@ -1,0 +1,24 @@
+.pagination {
+    padding: 12px;
+}
+
+.pages {
+    padding: 14px;
+    display: block;
+}
+
+.btn-pageNumber {
+    min-width: 54px;
+    margin: 2px;
+}
+.search-hero {
+    max-width: 500px;
+    padding-bottom: 50px;
+    margin:auto;
+  }
+  .form-control {
+    box-shadow: 0 10px 40px 0 #B0C1D9;
+  }
+  .form-control::placeholder  {
+    font-family: FontAwesome;
+  }
