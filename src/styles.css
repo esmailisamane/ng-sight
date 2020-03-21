@@ -49,6 +49,7 @@ a:hover {
 .cards {
     display: flex;
     flex-direction: column;
+   
 }
 
 .section-container {
