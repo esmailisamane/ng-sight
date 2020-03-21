@@ -13,4 +13,10 @@ constructor(private http: HttpClient) { }
  getOrders(pageIndex: number, pageSize: number)  {
    return this.http.get<Order[]>('http://localhost:56603/api/orders/' + pageIndex + '/' + pageSize);
   }
+  getOrdersByCustomer(n: number)  {
+    return this.http.get<Order[]>('http://localhost:56603/api/orders/ByCoustomer/' + n);
+   }
+   getOrdersByState()  {
+    return this.http.get<Order[]>('http://localhost:56603/api/orders/bystate');
+   }
 }
